@@ -1,0 +1,207 @@
+/* Style for the Gallery page */
+
+/* Style for the logo */
+
+/* Style for the class gallaryimage */
+.gallaryimage{
+    width:30%;
+    margin-right:1%;
+    margin-left:1%;
+    float:left;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+ 
+/* Style for the image*/
+#image1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 50%;
+}
+
+/* Style for the image */
+img {
+    width: 100%;
+    height: 400px; 
+}
+
+/* Style for the nav element */
+nav {
+    width: 100%;
+    overflow: hidden;
+    background-color: #22304C;
+}
+
+/* Style for the lis in navigation */
+nav li
+{
+    list-style-type: none;
+}
+
+/* Style for the unordered list */
+nav ul{
+    margin-top: 0px;
+    margin:auto;
+    margin-left: 0px;
+    width:100%;
+}
+
+/* Style for the hyperlinks */
+nav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 8px 35px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+/* Style for the hyperlinks to hover when click */
+nav a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+/* Style for the active */
+nav a.active {
+    color: white;
+}
+
+/* Stlye for the footer area */
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #22304C;
+    color: white;
+}
+
+/* Stlye for the paragraph element */
+footer p{
+    margin-top: 5px;
+}
+
+/* style for the hyperlinks in the footer  */
+footer a{
+    line-height: 0em;
+    font-weight: bold;
+    color:white; 
+}
+
+/* Style for the horizontal line */
+hr{
+    width: 60%;
+    margin: auto;
+    border-bottom: 1px dashed #22304C;
+}
+
+/*style for gallery*/
+#main
+{
+    text-align: center;
+    background-color: #22304C;
+}
+
+/* Style for heading */
+#heading h1
+{
+    margin-top: 0%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style for the image  */
+#leftimage img
+{
+    height: 250px;
+    width: 300px;
+    float: left;
+    margin-left: 10%;
+    border: 3px solid white;
+}
+
+/* Style for the image  */
+#middleimage img
+{
+
+    height: 250px;
+    width: 300px;
+    float: right;
+    margin-right: 10%;
+    border: 3px solid white;
+    
+}
+
+/* Style for the image  */
+#rightimage img
+{
+    height: 250px;
+    width: 300px;
+    border: 3px solid white;
+}
+
+/* media query for Desktop viewport size */
+/* changing min-width to  884px  */
+@media only screen and (min-width: 900px) {
+    
+    /* Style for the unorderedlist  */
+    nav ul{
+        margin-top: 0px;
+        margin:auto;
+        width:100%;
+    }
+}
+
+/* media query for Tablet viewport size */
+/* changing min-width to  666px  */
+@media only screen and (max-width: 768px) {
+    
+    /* Style for the link in navigation */
+    nav a{
+        padding: 8px 20px; 
+    }
+
+    /* Style for the image */
+    .gallaryimage{
+        width:45%;
+        margin-right:10px;
+        margin-left:10px;
+        float:left;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+}
+
+/* media query for Mobile viewport size */
+/* changing min-width to  541px  */
+@media only screen and (max-width: 425px) {
+    
+    /* Style for the link in navigation */
+    nav li a {
+      display: inline-block;
+      width:42%;
+      margin:auto;
+      text-align: left;
+    }
+    
+    /* Style for the list */
+    li{
+       margin-left: 90px;
+    }
+
+    /* Style for the images */
+    .gallaryimage{
+        width:95%;
+        margin-right:10px;
+        margin-left:10px;
+        float:left;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+  }
+
+

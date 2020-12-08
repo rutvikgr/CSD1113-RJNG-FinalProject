@@ -1,0 +1,273 @@
+/* Style for the book page */
+
+/* SStyle for the logo */
+#image1 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 60%;
+}
+
+/* style for the img element */
+img {
+  width: 100%;
+  height: 400px; 
+  margin-bottom: 0%;
+}
+
+/* Style for the main */
+main{
+  background-color: #22304C;
+  color: white;
+  display: block;
+  margin-top: 0px;
+}
+
+/* Style for the h1 tag */
+h1{
+  font-size: 40px;
+}
+
+/* styles for the class dtl */
+p.dtl{
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* styles for the class room */
+.room{
+  height: 300px;
+  width: 400px;
+  float: left;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+/* styles for the class new */
+.new{
+  height: 300px;
+  width: 400px;
+  font-size: 20px;
+}
+
+/* Style for the Classis room */
+#classic{
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+/* Style for the club villa */
+#club{
+  margin-left: 10px;
+}
+
+/* Style for the Deluxe room */
+#deluxe{
+  margin-right: 10px;
+}
+
+/* Style for the One bedroom  */
+#onebedroom{
+  margin-left: 10px;
+}
+
+/* styles for the button */
+button{
+  margin-bottom: 100px;
+  list-style-position: inside;
+  background-color: darkgray;
+  color:#ffffff;
+  padding: 10px 28px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.line{
+  display: none;
+}
+
+/* Style for the nav element */
+nav {
+  width: 100%;
+  overflow: hidden;
+  background-color: #22304C;
+}
+
+/* Style for the list in navigation */
+nav li
+{
+  list-style-type: none;
+}
+
+/* Style for the unordered list in navigation */
+nav ul{
+  margin-top: 0px;
+  margin:auto;
+  margin-left: 0px;
+  width:100%;
+}
+
+/* Style for the hyperlinks */
+nav a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 8px 35px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  margin-bottom:5px;
+  margin-top:5px;
+}
+
+/* Style for the hyperlinks to hover when click */
+nav a:hover {
+  background-color: darkgray;
+  color: black;
+}
+
+/* Style for the active */
+nav a.active {
+  color: white;
+}
+
+/* Stlye for the footer area */
+footer{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: #22304C;
+  color: white;
+}
+
+/* Stlye for the paragraph element */
+footer p{
+  margin-top: 5px;
+}
+
+/* style for the hyperlinks in the footer  */
+footer a{
+  line-height: 0em;
+  font-weight: bold;
+  color:white; 
+}
+
+/* Media query for the Desktop viewport (minimum width 850px) */
+@media only screen and (min-width: 850px) {
+  
+  /* styles for the button */
+  button{
+    margin-bottom: 120px;
+  }
+  
+  /* styles for the class line */
+  .line{
+    display: inline; 
+   }  
+  
+  p.dtl{
+    font-size: 70px;
+
+  }
+ 
+  /* Style for the class room */
+  .room{
+    height: 300px;
+    width: 400px;
+    float: left;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+ 
+  /* Style for the class new */
+  .new{
+      height: 300px;
+      width: 400px;
+      float: left;
+      font-size: 20px;
+      padding-right: 20px;
+  }
+}
+
+/* media query for tablet viewport (minimum width 768px) */
+@media only screen and (min-width: 768px) {
+  
+  /* styles for the button */
+  button{
+    margin-bottom: 100px;
+  }
+  
+  p.dtl{
+    font-size: 15px;
+  }
+  
+  /* Style for the h1 */
+  h1{
+    font-size: 25px;
+  }
+  
+  /* styles for the class line */
+  .line{
+    display: inline; 
+  }  
+  
+  /* Style for the class room */
+  .room{
+    height: 300px;
+    width: 400px;
+    float: left;
+    padding-right: 20px;
+    font-size: 20px;
+  } 
+  
+  /* Style for the class new */
+  .new{
+    height: 300px;
+    width: 400px;
+    float: right;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+}
+
+/* media query for Mobile viewport size */
+/* changing min-width to  425px  */
+@media only screen and (max-width: 425px) {
+  
+  /* Style for the links in navigation */
+  nav li a {
+    display: inline-block;
+    width:42%;
+    margin:auto;
+    text-align: left;
+  }
+
+  /* Style for the image */
+  #container img{
+    display: none;
+  }
+
+  /* Style for the list */
+  li{
+     margin-left: 90px;
+  }
+
+  /* Style for the class room */
+  .room{
+    width: 102%;
+  }
+
+  /* Style for the class new */
+  .new{
+    width: 100%;
+  }
+
+  /* Style for the class dtl */
+  p.dtl{
+    font-size: 15px;
+  }
+
+}
+

@@ -1,0 +1,185 @@
+/* Style for the Home page */
+
+/* Style for the logo */
+#image1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 50%;
+}
+/* Style for the image element */
+img {
+    width: 100%;
+    height: 400px; 
+}
+
+/* Style for the h1 element */
+#h1Experience
+{
+    margin-top:0px;
+}
+
+/* Style for the horizontal line */
+hr{
+    width: 60%;
+    margin: auto;
+    border-bottom: 1px dashed #22304C;
+}
+
+/* Style for the nav element */
+nav {
+    width: 100%;
+    overflow: hidden;
+    background-color: #22304C;
+}
+
+/* Style for the list in navigation */
+nav li
+{
+    list-style-type: none;
+}
+
+/* Style for the unordered list in navigation */
+nav ul{
+    margin-top: 0px;
+    margin:auto;
+    margin-left: 0px;
+    width:100%;
+}
+
+/* Style for the amenitiesUL class */
+.amenitiesUl
+{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/* Style for the class para1 and para2 */
+.para1, .para2
+{
+    width:75%;
+    margin:auto;
+    margin-top: 10px;
+}
+
+/* Style for the hyperlinks */
+nav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 8px 35px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+/* Style for the hyperlinks to hover when click */
+nav a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+/* Style for the active */
+nav a.active {
+    color: white;
+}
+
+/* Stlye for the footer area */
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #22304C;
+    color:White; 
+}
+
+/* Style for the paragraph in footer */
+footer p{
+    margin-top: 5px;
+}
+
+/* style for the hyperlinks in the footer  */
+footer a{
+   line-height: 0em;
+   font-weight: bold;
+   color:white; 
+}
+
+/* style for the main element */
+main {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;  
+    background-color: #22304C;
+    color:White; 
+}
+
+/* style for the unorderlist */
+main ul{
+    padding: 0;    
+    list-style-type: square;
+}
+
+/* Style for the list */
+main li{
+    display: inline-block;
+    margin: 0.3em;
+}
+
+/* Style for the content in the main element */
+#para{
+    text-align: center;
+}
+
+/* Style for the second image  */
+#image img{
+    width: 100%;
+    height: 400px; 
+}
+
+/* media query for Desktop viewport size */
+/* changing min-width to  900px  */
+@media only screen and (min-width: 900px) {
+    
+    /* Style for the unordered list */
+    nav ul{
+        margin-top: 0px;
+        margin:auto;
+        width:100%;
+    }
+}
+
+/* media query for Tablet viewport size */
+/* changing min-width to  768px  */
+@media only screen and (max-width: 768px) {
+    
+    /* Style for the link in navigation */
+    nav a{
+        padding: 8px 20px; 
+    }
+}
+
+/* media query for Mobile viewport size */
+/* changing min-width to  425px  */
+@media only screen and (max-width: 425px) {
+  
+    /* Style for the Style for the link */
+    nav li a {
+        display: inline-block;
+        width:42%;
+        margin:auto;
+        text-align: left;
+    }
+
+    /* Style for the image */
+    #container img{
+        display: none;
+    }
+
+    /* Style for the list */
+    li{
+        margin-left: 90px;
+    }
+}
